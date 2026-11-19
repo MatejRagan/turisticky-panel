@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "seed:peaks": "tsx scripts/seedPeaks.ts"
+    "seed:peaks": "tsx scripts/seedPeaks.ts",
+    "sync:weather": "tsx scripts/syncWeather.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.119.2",
